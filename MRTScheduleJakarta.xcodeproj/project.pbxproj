@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFA6D828238AC2C40030EF72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6D827238AC2C40030EF72 /* AppDelegate.swift */; };
+		DFA6D82A238AC2C40030EF72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6D829238AC2C40030EF72 /* SceneDelegate.swift */; };
+		DFA6D82C238AC2C40030EF72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6D82B238AC2C40030EF72 /* ContentView.swift */; };
+		DFA6D82E238AC2CD0030EF72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA6D82D238AC2CD0030EF72 /* Assets.xcassets */; };
+		DFA6D831238AC2CD0030EF72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA6D830238AC2CD0030EF72 /* Preview Assets.xcassets */; };
+		DFA6D834238AC2CD0030EF72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA6D832238AC2CD0030EF72 /* LaunchScreen.storyboard */; };
+		DFA6D83D238AC2E90030EF72 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6D83C238AC2E90030EF72 /* LinkedList.swift */; };
+		DFA6D83F238AC3080030EF72 /* MRTSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6D83E238AC3080030EF72 /* MRTSystem.swift */; };
+		DFA6D841238AC4850030EF72 /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6D840238AC4850030EF72 /* StationDetailView.swift */; };
+		DFA6D843238B59350030EF72 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6D842238B59350030EF72 /* MapView.swift */; };
+		DFA6D846238B681D0030EF72 /* LocationManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6D845238B681D0030EF72 /* LocationManagerViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFA6D824238AC2C40030EF72 /* MRTScheduleJakarta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRTScheduleJakarta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA6D827238AC2C40030EF72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFA6D829238AC2C40030EF72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFA6D82B238AC2C40030EF72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFA6D82D238AC2CD0030EF72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFA6D830238AC2CD0030EF72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFA6D833238AC2CD0030EF72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFA6D835238AC2CD0030EF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA6D83C238AC2E90030EF72 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		DFA6D83E238AC3080030EF72 /* MRTSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRTSystem.swift; sourceTree = "<group>"; };
+		DFA6D840238AC4850030EF72 /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
+		DFA6D842238B59350030EF72 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DFA6D845238B681D0030EF72 /* LocationManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFA6D821238AC2C40030EF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFA6D81B238AC2C40030EF72 = {
+			isa = PBXGroup;
+			children = (
+				DFA6D826238AC2C40030EF72 /* MRTScheduleJakarta */,
+				DFA6D825238AC2C40030EF72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFA6D825238AC2C40030EF72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6D824238AC2C40030EF72 /* MRTScheduleJakarta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFA6D826238AC2C40030EF72 /* MRTScheduleJakarta */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6D827238AC2C40030EF72 /* AppDelegate.swift */,
+				DFA6D829238AC2C40030EF72 /* SceneDelegate.swift */,
+				DFA6D847238B694E0030EF72 /* ViewModel */,
+				DFA6D83B238AC2D30030EF72 /* Models */,
+				DFA6D844238B67120030EF72 /* Views */,
+				DFA6D82D238AC2CD0030EF72 /* Assets.xcassets */,
+				DFA6D832238AC2CD0030EF72 /* LaunchScreen.storyboard */,
+				DFA6D835238AC2CD0030EF72 /* Info.plist */,
+				DFA6D82F238AC2CD0030EF72 /* Preview Content */,
+			);
+			path = MRTScheduleJakarta;
+			sourceTree = "<group>";
+		};
+		DFA6D82F238AC2CD0030EF72 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6D830238AC2CD0030EF72 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFA6D83B238AC2D30030EF72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6D83C238AC2E90030EF72 /* LinkedList.swift */,
+				DFA6D83E238AC3080030EF72 /* MRTSystem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFA6D844238B67120030EF72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6D82B238AC2C40030EF72 /* ContentView.swift */,
+				DFA6D840238AC4850030EF72 /* StationDetailView.swift */,
+				DFA6D842238B59350030EF72 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFA6D847238B694E0030EF72 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6D845238B681D0030EF72 /* LocationManagerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFA6D823238AC2C40030EF72 /* MRTScheduleJakarta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA6D838238AC2CD0030EF72 /* Build configuration list for PBXNativeTarget "MRTScheduleJakarta" */;
+			buildPhases = (
+				DFA6D820238AC2C40030EF72 /* Sources */,
+				DFA6D821238AC2C40030EF72 /* Frameworks */,
+				DFA6D822238AC2C40030EF72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRTScheduleJakarta;
+			productName = MRTScheduleJakarta;
+			productReference = DFA6D824238AC2C40030EF72 /* MRTScheduleJakarta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFA6D81C238AC2C40030EF72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Alfian Losari";
+				TargetAttributes = {
+					DFA6D823238AC2C40030EF72 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DFA6D81F238AC2C40030EF72 /* Build configuration list for PBXProject "MRTScheduleJakarta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFA6D81B238AC2C40030EF72;
+			productRefGroup = DFA6D825238AC2C40030EF72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFA6D823238AC2C40030EF72 /* MRTScheduleJakarta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFA6D822238AC2C40030EF72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA6D834238AC2CD0030EF72 /* LaunchScreen.storyboard in Resources */,
+				DFA6D831238AC2CD0030EF72 /* Preview Assets.xcassets in Resources */,
+				DFA6D82E238AC2CD0030EF72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFA6D820238AC2C40030EF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA6D843238B59350030EF72 /* MapView.swift in Sources */,
+				DFA6D846238B681D0030EF72 /* LocationManagerViewModel.swift in Sources */,
+				DFA6D83F238AC3080030EF72 /* MRTSystem.swift in Sources */,
+				DFA6D828238AC2C40030EF72 /* AppDelegate.swift in Sources */,
+				DFA6D82A238AC2C40030EF72 /* SceneDelegate.swift in Sources */,
+				DFA6D83D238AC2E90030EF72 /* LinkedList.swift in Sources */,
+				DFA6D841238AC4850030EF72 /* StationDetailView.swift in Sources */,
+				DFA6D82C238AC2C40030EF72 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFA6D832238AC2CD0030EF72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA6D833238AC2CD0030EF72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFA6D836238AC2CD0030EF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFA6D837238AC2CD0030EF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFA6D839238AC2CD0030EF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MRTScheduleJakarta/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MRTScheduleJakarta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.MRTScheduleJakarta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFA6D83A238AC2CD0030EF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MRTScheduleJakarta/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MRTScheduleJakarta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.MRTScheduleJakarta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFA6D81F238AC2C40030EF72 /* Build configuration list for PBXProject "MRTScheduleJakarta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA6D836238AC2CD0030EF72 /* Debug */,
+				DFA6D837238AC2CD0030EF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA6D838238AC2CD0030EF72 /* Build configuration list for PBXNativeTarget "MRTScheduleJakarta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA6D839238AC2CD0030EF72 /* Debug */,
+				DFA6D83A238AC2CD0030EF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFA6D81C238AC2C40030EF72 /* Project object */;
+}
